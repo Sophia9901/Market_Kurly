@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>마켓컬리 로그인</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/login.css">
+  <!-- 부트스트랩 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+</head>
+<body>
+  <header class="container">
+    <div class="top_info">
+      <a href="#none" class="delivery_link"><span class="color">샛별·택배</span> 배송안내<i class="bi bi-chevron-right"></i></a>
+      <ul class="join_box">
+        <li><a href="#"><span class="color">회원가입</span></a></li>
+        <li><a href="#">로그인</a></li>
+        <li class="center"><a href="#">고객센터<i class="bi bi-caret-down-fill"></i></a>
+          <ul class="center_sub">
+            <li><a href="#">공지사항</a></li>
+            <li><a href="#">자주하는 질문</a></li>
+            <li><a href="#">1:1 문의</a></li>
+            <li><a href="#">대량주문 문의</a></li>
+            <li><a href="#">상품제안</a></li>
+            <li><a href="#">에코포장 피드백</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <h1 class="logo">
+      <a href="#none">
+        <img src="https://res.kurly.com/images/marketkurly/logo/logo_x2.png">
+      </a>
+    </h1>
+    <nav class="big_nav">
+      <ul class="middle_nav">
+        <li class="catego_menu"><a href="#"><i class="bi bi-list"></i>전체 카테고리
+          <ul class="catego_menu_li">
+            <li class="catego_vegi"><a href="#"><i class="bi bi-emoji-smile-upside-down"></i>채소</a>
+              <ul class="catego_sub">
+                <li><a href="#">친환경</a></li>
+                <li><a href="#">고구마·감자·당근</a></li>
+                <li><a href="#">시금치·쌈채소·나물</a></li>
+              </ul>
+            </li>
+            <li class="catego_fru"><a href="#"><i class="bi bi-emoji-smile-upside-down"></i>과일·견과·쌀</a>
+              <ul class="catego_sub">
+                <li><a href="#">친환경</a></li>
+                <li><a href="#">제철과일</a></li>
+                <li><a href="#">국산과일</a></li>
+              </ul>
+            </li>
+            <li class="catego_fish"><a href="#"><i class="bi bi-emoji-smile-upside-down"></i>수산·해산물·건어물</a>
+              <ul class="catego_sub fish">
+                <li><a href="#">제철수산</a></li>
+                <li><a href="#">생선류</a></li>
+                <li><a href="#">굴비·반건류</a></li>
+              </ul>
+            </li>
+          </ul>
+        </a></li>
+        <li class="item_menu"><a href="#">신상품</a></li>
+        <li class="item_menu"><a href="#">베스트</a></li>
+        <li class="item_menu"><a href="#">알뜰쇼핑</a></li>
+        <li class="item_menu"><a href="#">특가/혜택</a></li>
+      </ul>
+      <div class="search">
+        <input type="text" class="search_bar" label="검색어" placeholder="검색어를 입력해주세요">
+        <button type="submit"><i class="bi bi-search"></i></button>
+      </div>
+      <ul class="small_nav">
+        <li class="delivery_address"><i class="bi bi-geo-alt"></i>
+          <div class="delivery_address_box">
+            <p><span class="color">배송지를 등록</span>하고<br>구매가능한 상품을 확인하세요!</p>
+            <div class="delivery_buttons">
+              <button type="button" class="btn">로그인</button>
+              <button type="button" class="btn_color"><i class="bi bi-search"></i>주소검색</button>
+            </div>
+          </div>
+        </li>
+        <li><a href="#"><i class="bi bi-heart"></i></a></li>
+        <li><a href="#"><i class="bi bi-cart"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="login">
+    <div class="login-box">
+      <h2>로그인</h2>
+      <input type="text" placeholder="아이디를 입력해주세요" label="아이디" minlength="8" maxlength="15" required>
+      <input type="password" placeholder="비밀번호를 입력해주세요" label="비밀번호" minlength="8" maxlength="15" required>
+      <div class="login_info">
+        <label class="key_log">
+          <input type="checkbox" name="key_log">보안 접속
+        </label>
+        <ul class="find">
+          <li><a href="#">아이디 찾기</a></li>
+          <li><a href="#">비밀번호 찾기</a></li>
+        </ul>
+      </div>
+      <button type="submit" class="btn_color">로그인</button>
+      <a href="#"><button type="button" class="btn">회원가입</button></a>
+    </div>
+  </div>
+  <div class="contact_box">
+    <div class="call">
+      <h3>고객행복센터</h3>
+      <table>
+        <tr>
+          <th>1644-1107</th>
+          <td>
+            <p>365고객센터</p>
+            <p>오전 7시 &#45; 오후 7시</p>
+          </td>
+        </tr>
+        <tr>
+          <th>1644-1107</th>
+          <td>
+            <p>카카오톡 문의</p>
+            <p>오전 7시 &#45; 오후 7시</p>
+          </td>
+        </tr>
+        <tr>
+          <th>1&#58;1 문의</th>
+          <td>
+            <p>24시간 접수 가능</p>
+            <p>고객센터 운영시간에 순차적으로 답변해드리겠습니다.</p>
+          </td>
+        </tr>
+        <tr>
+          <th>대량주문 문의</th>
+          <td>
+            <p>비회원의 경우 메일로 문의 바랍니다.</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="information">
+      <ul>
+        <li><a href="#">컬리소개</a></li>
+        <li><a href="#">컬리소개영상</a></li>
+        <li><a href="#">인재채용</a></li>
+        <li><a href="#">이용약관</a></li>
+        <li><a href="#">개인정보처리방침</a></li>
+        <li><a href="#">이용안내</a></li>
+      </ul>
+      <p>
+        법인명 (상호) &#58; 주식회사 컬리
+        <span class="bar">사업자등록번호 &#58; 261&#45;81&#45;23567 <a href="#"><span class=color>사업자정보확인</span></a>
+      </p>
+      <p
+      >통신판매업 &#58; 제 2018&#45;서울강남&#45;01646 호
+      <span class="bar">개인정보보호책임자 &#58; 이원준
+      </p>
+      <p>
+        주소 &#58; 서울특별시 강남구 테헤란로 133, 18층(역삼동)
+        <span class="bar">대표이사 &#58; 김슬아
+      </p>
+      <p>
+        입점문의 &#58; <a href="#"><span class="color">입점문의하기</span></a>
+        <span class="bar">마케팅제휴 &#58; <a href="#"><span class="color">business@kurlycorp.com</span></a>
+      </p>
+      <p>
+        채용문의 &#58; <a href="#"><span class="color">recruit@kurlycorp.com</span></a>
+      </p>
+      <p>
+        팩스 &#58; 070&#45;7500&#45;6098
+        <span class="bar">이메일 &#58; <a href="#"><span class="color">help@kurlycorp.com</span></a>
+      </p>
+      <p>
+        대량주문 문의 &#58; <a href="#"><span class="color">kurlygift@kurlycorp.com</span></a>
+      </p>
+    </div>
+  </div>
+  <footer>
+    
+  </footer>
+</body>
+</html>
